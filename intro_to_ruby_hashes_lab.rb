@@ -1,16 +1,25 @@
+'''ruby
+
 def new_hash
-  # return an empty hash
+  {"" => ""}
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
+cars = {
+  "honda" => 1000,
+  "buick" => 2,
+  "toyota" => 500
+}
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  key = :name
+  user_access = {:name => "Grace Hopper", :hobby => "swimming"}
 end
 
 def id_generator
+  key = :id
+  happy_things = {:id "Big Boy", ""} 
   # return a hash with a key :id assigned to positive integer
 end
 
